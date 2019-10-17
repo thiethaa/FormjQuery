@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="form.css"/>
+    <title>Registration Form</title>
+</head>
+<body>
+    <header>
+       
+    </header>
+    <div class="container">
+        <p>Join Us Now!</p>
+        <form class="content" id="regform" method="get" action="#">
+            <div id="username_div">
+                <label>Username:</label><br>
+                <input id="username" type="text" class="textinput" >
+                <div id="username_error"></div>
+            </div>
+
+            <div id="dob_div">
+                <label>Date of Birth:</label><br>
+                <input id="dob" type="date" class="textinput" >
+                <div id="dob_error"></div>
+                </div>
+    
+            <div id="email_div">
+                <label>Email:</label><br>
+                <input id="email" type="email" class="textinput" >
+                <div id="email_error"></div>
+                </div>
+        
+            <div id="password_div">
+                <label>Password:</label><br>
+                <input id="password" type="password" class="textinput" >
+                <div id="password_error"></div>
+                </div>
+            <div class="btn">
+            <input type="submit" id="register" value="Register" class="btn-submit">
+            </div>
+        </form>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<script src="form.js"></script>
+</body>
+</html>
